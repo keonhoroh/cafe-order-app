@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RUCafe</string>
+    <string name="cafe">Cafe</string>
+    <string name="donut_icon">Order Donuts</string>
+    <string name="coffee_icon">Order Coffee</string>
+    <string name="checklist_icon">Store Orders</string>
+    <string name="basket_icon">Ordering Basket</string>
+    <string name="flavor1">Sweet Cream</string>
+    <string name="flavor2">French Vanilla</string>
+    <string name="flavor3">Irish Cream</string>
+    <string name="flavor4">Caramel</string>
+    <string name="flavor5">Mocha</string>
+    <string name="add">Add to Order</string>
+    <string name="sub">Sub-Total:</string>
+    <string name="tax">Tax:</string>
+    <string name="total">Total:</string>
+    <string name="donutImage">Donut Image</string>
+    <string name="coffeeImage">Coffee Image</string>
+    <string name="orderingBasketImage">Basket Image</string>
+    <string name="checklistImage">Checklist Image</string>
+    <string name="rutgersLogo">Rutgers Logo</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="totalAmount">Total Amount:</string>
+    <string name="orderNum">Order# </string>
+    <string name="cancel">Cancel Selected Order</string>
+    <string name="donut">Donut</string>
+
+</resources>

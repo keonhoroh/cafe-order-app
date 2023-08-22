@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C30000"
+    tools:context=".RUCafeController">
+
+    <TextView
+        android:id="@+id/cafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald_bold"
+        android:paddingLeft="5sp"
+        android:shadowColor="#000000"
+        android:shadowDx="-15"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="@string/cafe"
+        android:textColor="#FFFFFF"
+
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textSize="16sp"
+        android:fontFamily="@font/oswald_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checklist_icon"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="89sp"
+        android:layout_height="25sp"
+        android:fontFamily="@font/oswald_bold"
+        android:text="@string/coffee_icon"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/oswald_bold"
+        android:text="@string/donut_icon"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="16sp"
+        android:fontFamily="@font/oswald_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/basket_icon"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="107sp"
+        android:layout_height="146sp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/checklistImage"
+        android:onClick="openStoreOrdersView"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:srcCompat="@drawable/checklist" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="98sp"
+        android:layout_height="155sp"
+        android:contentDescription="@string/orderingBasketImage"
+        android:onClick="openOrderingBasketView"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:srcCompat="@drawable/shoppingbag" />
+
+    <ImageView
+        android:id="@+id/donutImage"
+        android:layout_width="117sp"
+        android:layout_height="128sp"
+        android:layout_marginBottom="8sp"
+        android:contentDescription="@string/donutImage"
+        android:onClick="openDonutView"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:srcCompat="@drawable/donuticon" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="113sp"
+        android:layout_height="125sp"
+        android:layout_marginBottom="8sp"
+        android:contentDescription="@string/coffeeImage"
+        android:onClick="openCoffeeView"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:srcCompat="@drawable/coffeeicon" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="129sp"
+        android:layout_height="71sp"
+        android:contentDescription="@string/rutgersLogo"
+        app:layout_constraintBottom_toBottomOf="@+id/cafe"
+        app:layout_constraintEnd_toStartOf="@+id/cafe"
+        app:layout_constraintTop_toTopOf="@+id/cafe"
+        app:layout_constraintVertical_bias="0.619"
+        app:srcCompat="@drawable/rulogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
