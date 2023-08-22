@@ -1,4 +1,4 @@
-# cafe-order-app
+# Mobile Ordering App for Cafe
 
 This is an Android mobile application that simulates multiple features:
 - Order a variety of baked goods/donuts
